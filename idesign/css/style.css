@@ -1260,7 +1260,7 @@ span, a, a:hover {
   .navbar .navbar-collapse {
     max-height: 340px;
     overflow: auto;
-    background: #111;
+    background: #fff;
     text-align: center;
     padding: 10px 0;
   }
@@ -1269,7 +1269,7 @@ span, a, a:hover {
   }
 
   .nav-scroll .navbar-collapse .nav-link {
-    color: #fff !important;
+    color: #000 !important;
   }
   .nav-scroll .navbar-collapse .active {
     color: #F24259 !important;

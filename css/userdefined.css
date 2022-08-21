@@ -19,10 +19,7 @@
 }
 
 .aboutus-img {
-  height: 280px;
-  right: 70px;
-  position: absolute;
-  top: 715px;
+  height: 250px;
   width: 300px;
 }
 
@@ -107,11 +104,11 @@ footer {
   background: #fff;
 }
 
-.copy{
-background: black;
-color: #777;
-font-weight: 700;
-text-align: center;
+.copy {
+  background: black;
+  color: #777;
+  font-weight: 700;
+  text-align: center;
 }
 footer .social a {
   color: #777;
@@ -141,14 +138,14 @@ footer p {
 .information {
   padding: 80px 0;
   color: #fff;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .information .item {
   padding: 13px;
   background: rgba(70, 70, 70, 0.3);
   border-radius: 5px;
-  cursor: pointer;  
+  cursor: pointer;
 }
 .information .info .item:last-child {
   margin-bottom: 0;
@@ -172,14 +169,14 @@ footer p {
 }
 .contact .map-show .icon-toggle {
   z-index: 2;
-  -webkit-transition-delay: .3s;
-          transition-delay: .3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 .contact .contact-form {
   padding: 80px 50px;
 }
-.contact .contact-form input[type='text'],
-.contact .contact-form input[type='email'],
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
 .contact .contact-form textarea {
   width: 100%;
   padding: 10px;
@@ -192,9 +189,9 @@ footer p {
   max-height: 160px;
   max-width: 100%;
 }
-.contact .contact-form button[type='submit'] {
-  background: #F24259;
-  border: 1px solid #F24259;
+.contact .contact-form button[type="submit"] {
+  background: #f24259;
+  border: 1px solid #f24259;
   color: #fff;
   padding: 10px 30px;
   margin-top: 15px;
@@ -202,8 +199,8 @@ footer p {
   cursor: pointer;
   position: relative;
 }
-.contact .contact-form button[type='submit']:after {
-  content: '';
+.contact .contact-form button[type="submit"]:after {
+  content: "";
   width: 0;
   height: 100%;
   position: absolute;
@@ -214,18 +211,18 @@ footer p {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.contact .contact-form button[type='submit'] span {
+.contact .contact-form button[type="submit"] span {
   position: relative;
   z-index: 2;
 }
-.contact .contact-form button[type='submit']:hover:after {
+.contact .contact-form button[type="submit"]:hover:after {
   width: 100%;
   left: 0;
   -webkit-transition: width 0.3s ease;
   transition: width 0.3s ease;
 }
-.contact .contact-form button[type='submit']:hover span {
-  color: #F24259;
+.contact .contact-form button[type="submit"]:hover span {
+  color: #f24259;
 }
 
 /* ----------------------------------------------------------------
@@ -246,14 +243,32 @@ footer p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.information a{
+.information a {
   display: block;
 }
 
-.contactNo{
+.contactNo {
   width: 100%;
   padding: 10px;
   border: 0;
   background: #f7f7f7;
-  border-radius: 5px; 
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .blc {
+    font-size: 40px;
+  }
+  .cd-words-wrapper {
+    font-size: 40px;
+  }
+  .sub-quote-landing {
+    font-weight: 200;
+    padding: 0px 20px;
+  }
+  .aboutus-img {
+    height: 250px;
+    width: 300px;
+    margin-left: 10%;
+  }
 }
