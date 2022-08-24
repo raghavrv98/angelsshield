@@ -42,13 +42,13 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/logo.jpeg');
 
         }else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
-            navbloglogo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/logo.jpeg');
+            navbloglogo.attr('src', 'img/logo.jpeg');
         }
     });
 
